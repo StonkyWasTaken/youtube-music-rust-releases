@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#15151c"/><stop offset="1" stop-color="#08090d"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ff2020" stop-opacity=".2"/><stop offset="1" stop-color="#ff2020" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="420" rx="22" fill="url(#bg)"/>
+  <circle cx="1060" cy="220" r="280" fill="url(#glow)"/>
+  <path d="M0 419H1280" stroke="#e33a45" stroke-opacity=".6"/>
+  <svg x="64" y="54" width="66" height="66" viewBox="0 0 512 512"><rect width="512" height="512" fill="#ff0000"/><path d="M200 152v208l168-104z" fill="white"/></svg>
+  <text x="151" y="82" fill="#eeeef4" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="600">A DESKTOP HOME FOR YOUR MUSIC</text>
+  <text x="151" y="109" fill="#8e8e9e" font-family="Segoe UI,Arial,sans-serif" font-size="14">Windows x64 · Experimental release</text>
+  <text x="62" y="223" fill="#f7f7fb" font-family="Segoe UI,Arial,sans-serif" font-size="72" font-weight="700" letter-spacing="-2.5">YouTube Music <tspan fill="#ff4949">Rust</tspan></text>
+  <text x="66" y="275" fill="#b4b4c4" font-family="Segoe UI,Arial,sans-serif" font-size="23">Your library. Your plugins. Your desktop.</text>
+  <rect x="65" y="323" width="140" height="34" rx="17" fill="#282832" stroke="#42424d"/>
+  <text x="85" y="345" fill="#e9e9f1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Rust + WebView2</text>
+  <rect x="218" y="323" width="150" height="34" rx="17" fill="#282832" stroke="#42424d"/>
+  <text x="239" y="345" fill="#e9e9f1" font-family="Segoe UI,Arial,sans-serif" font-size="13">Signed app updates</text>
+  <g transform="translate(950 123)">
+    <rect x="-17" y="17" width="184" height="184" fill="#390e16" stroke="#882332" transform="rotate(-9 75 92)"/>
+    <rect width="168" height="168" fill="#ff0000"/>
+    <path d="M65.625 49.875v68.25l55.125-34.125z" fill="white"/>
+  </g>
+  <g fill="#ff4949" opacity=".65"><rect x="1184" y="179" width="6" height="65" rx="3"/><rect x="1198" y="159" width="6" height="105" rx="3"/><rect x="1212" y="192" width="6" height="40" rx="3"/></g>
+</svg>
