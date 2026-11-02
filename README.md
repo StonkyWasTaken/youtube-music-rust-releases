@@ -4,7 +4,7 @@
 
 <p align="center"><a href="https://github.com/StonkyWasTaken/youtube-music-rust-releases/releases/latest">Release notes &amp; all downloads</a> · <a href="https://github.com/StonkyWasTaken/youtube-music-rust-releases/issues">Report a bug</a></p>
 
-> **First release is building.** The download button will become available when the signed installer is published.
+> **The Windows download is live.** Install once, then get future updates inside the app.
 
 ## Music, with room to make it yours
 
@@ -49,3 +49,4 @@ This repository hosts installers, update files, release notes and license notice
 Based in part on [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop), version 3.12.0. MIT attribution is included in [LICENSE](LICENSE), [UPSTREAM-LICENSE](UPSTREAM-LICENSE) and with the downloadable installer.
 
 <p align="center"><sub>Unofficial project · Not affiliated with Google or YouTube</sub></p>
+
