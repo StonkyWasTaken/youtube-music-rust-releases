@@ -1,29 +1,51 @@
-# YouTube Music Rust
+<p align="center"><img src="assets/header.svg" alt="YouTube Music Rust — a desktop home for your music" width="100%"></p>
 
-An independent, experimental Windows desktop client for YouTube Music, built with Rust and WebView2.
+<p align="center"><a href="https://github.com/StonkyWasTaken/youtube-music-rust-releases/releases/latest/download/YouTube-Music-Rust-Setup.exe"><img src="assets/download.svg" alt="Download for Windows x64" width="330"></a></p>
 
-## Download
+<p align="center"><a href="https://github.com/StonkyWasTaken/youtube-music-rust-releases/releases/latest">Release notes &amp; all downloads</a> · <a href="https://github.com/StonkyWasTaken/youtube-music-rust-releases/issues">Report a bug</a></p>
 
-**[Download for Windows x64](https://github.com/StonkyWasTaken/youtube-music-rust-releases/releases/latest/download/YouTube-Music-Rust-Setup.exe)**
+> **First release is building.** The download button will become available when the signed installer is published.
 
-[Release notes and all downloads](https://github.com/StonkyWasTaken/youtube-music-rust-releases/releases/latest)
+## Music, with room to make it yours
 
-Install the update-enabled version once. Later releases are detected automatically and shown as **Update available** in the app and in a Windows notification. You can also choose **Application → Check for updates…**. Updates download and install only after you confirm.
+An independent Windows desktop client for YouTube Music, built with **Rust + WebView2**. Keep your music in its own window and customize how the player works.
 
-## Included
+**This is an experimental project.** Some features and plugin ports are still in progress.
 
-- YouTube Music playback with an English interface and a separate profile.
-- Integrated settings and plugin panel, artwork scroll-wheel volume control, and optional Discord Rich Presence.
-- Experimental ports of desktop plugins, including the original In player ad blocker mode.
-- Saves the current song and queue, starting the song at 0:00 when reopened.
-- Signed update packages, with signature verification before installation.
+- **Desktop playback** — native menus, tray playback, media shortcuts and always-on-top.
+- **Your setup** — an integrated plugin panel, equalizer, playback speed and audio output selection.
+- **Precise volume** — scroll over the artwork to adjust volume in fine steps.
+- **Discord presence** — show what you are listening to, with your own activity name and title.
+- **Lyrics and extras** — synchronized lyrics, artwork effects and the original In player ad blocker mode.
+- **Remember your queue** — keeps the song and queue when you reopen, starting the song at 0:00.
 
-This is a work in progress; full parity with the original app has not been reached. Windows installers do not yet have an Authenticode certificate; updater signatures are a separate mechanism.
+## Install in three steps
 
-## Source and licensing
+1. Click **Download for Windows** above and run `YouTube-Music-Rust-Setup.exe`.
+2. Open the app. Sign in to YouTube Music if you want access to your library.
+3. Press **Ctrl+,** to open Settings & plugins and make it yours.
 
-This repository contains public downloads, release notes and license notices. The application source is maintained in a separate private repository.
+You need **64-bit Windows** and Microsoft **WebView2**. The installer handles WebView2 setup when needed.
 
-Based in part on [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop), version 3.12.0. MIT attribution is included in [LICENSE](LICENSE) and [UPSTREAM-LICENSE](UPSTREAM-LICENSE), and alongside the downloadable installer.
+<details>
+<summary><b>Not sure what to download on GitHub?</b></summary>
 
-Unofficial project. Not affiliated with Google or YouTube.
+Use the red download button above, or choose the `.exe` installer under **Assets** on the latest release page. You do not need the green **Code** button, the source archives, `.sig` files or `latest.json`.
+
+</details>
+
+## Updates that come to you
+
+Install the update-enabled version once. Future versions will show **Update available** in the app and in a Windows notification.
+
+Choose **Application → Check for updates…** whenever you want to check manually. The app downloads and installs an update only after you confirm. Your settings and separate music profile are kept.
+
+Update packages are verified with a signing key before installation. The Windows installer does not yet have an Authenticode certificate; these are separate signing systems.
+
+## Downloads public. Source private.
+
+This repository hosts installers, update files, release notes and license notices. The application source is maintained in a separate private repository.
+
+Based in part on [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop), version 3.12.0. MIT attribution is included in [LICENSE](LICENSE), [UPSTREAM-LICENSE](UPSTREAM-LICENSE) and with the downloadable installer.
+
+<p align="center"><sub>Unofficial project · Not affiliated with Google or YouTube</sub></p>
