@@ -19,6 +19,20 @@ An independent Windows desktop client for YouTube Music, built with **Rust + Web
 - **Lyrics and extras** — synchronized lyrics, artwork effects and the original In player ad blocker mode.
 - **Remember your queue** — keeps the song and queue when you reopen, starting the song at 0:00.
 
+## New in 0.3.0
+
+**Nine new experimental plugin ports** bring the catalog to **37 available ports out of 40**:
+
+- Album Actions, Downloader, and Last.fm / ListenBrainz Scrobbler.
+- An authenticated local API and authenticated SOCKS5 Proxy Adapter.
+- In-App Menu, Windows Taskbar Media Control, Transparent Player, and Performance Improvement.
+
+New plugins are off by default. Enable them in **Settings and plugins** and configure tools or credentials under **Options**. Downloads use yt-dlp with Deno or Node; MP3 also needs FFmpeg. Proxy, performance scripts, and transparency need a restart.
+
+Crossfade, Music Together, and the macOS Touch Bar remain unavailable. These ports are experimental; live service compatibility and complete upstream parity are still being verified.
+
+[Read the full update log](CHANGELOG.md) · [0.3.0 release notes](https://github.com/StonkyWasTaken/youtube-music-rust-releases/releases/tag/v0.3.0)
+
 ## Install in three steps
 
 1. Click **Download for Windows** above and run `YouTube-Music-Rust-Setup.exe`.
